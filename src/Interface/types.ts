@@ -2,5 +2,6 @@ export interface course
 {
     name:string,
     description:string,
-    creditHour:number
+    creditHour:number,
+    id:number
 }

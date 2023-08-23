@@ -7,11 +7,7 @@ type Props = {}
 const Rows = ({data}:any) => {
   return (
 <>
-<TableCell component="th" scope="row">
-                 {data.name}
-               </TableCell>
-               <TableCell align="right">{data.description}</TableCell>
-               <TableCell align="right">{data.creditHour}</TableCell>
+
                </>  )
 }
 
